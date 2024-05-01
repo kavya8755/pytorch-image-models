@@ -58,3 +58,4 @@ def test_freeze_unfreeze():
 
     assert 1 == 1
     assert 2 == 2
+    assert 3 == 3
