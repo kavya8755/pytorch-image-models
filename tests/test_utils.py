@@ -55,3 +55,6 @@ def test_freeze_unfreeze():
     assert isinstance(model.layer1[0].bn1, FrozenBatchNorm2d)    
     unfreeze(model.layer1[0], ['bn1'])
     assert isinstance(model.layer1[0].bn1, BatchNorm2d)
+
+    assert 1 == 1
+    assert 2 == 2
